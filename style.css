@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.customerTendersBlock{
+    margin-top: 30px;
+    padding-bottom: 20px;
+    border-bottom: lightgrey 2px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 55%;
+}
+.titleShowBlock, .titleShowBlock2{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.firstSelect, .secondSelect{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid;
+    outline:none;
+    padding: 5px;
+    cursor: pointer;
+}
+.showSelectedButton{
+    font-size: 12px;
+    font-weight: bold;
+    color: rgba(3, 91, 119, 1);
+    cursor: pointer;
+}
+#list{
+    display: none;
+}
+.supplierTendersBlock{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 55%;
+    margin-top: 20px;
+}
+
+.topBlock{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: rgba(250, 250, 250, 1);
+    padding: 5px 10px 20px 10px;
+}
+.topBlockNav{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.arrow{
+    font-size: 35px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.goods{
+    margin-right: 15px;
+}
+.inputTop{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid;
+    outline:none;
+    padding: 5px;
+}
+.firstCheckBlock{
+    width: 100%;
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+label{
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    padding: 8px 0;
+}
+.checkbox {
+    margin-right: 10px;
+}
+.footerBlock{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+    margin-top: 40px;
+    border-top:  lightgrey 2px solid;
+    background-color: rgba(250, 250, 250, 1);
+}
+.applyButton{
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    background-color: rgba(3, 91, 119, 1);
+    width: 121px;
+    height: 45px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.clear{
+    color: grey;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
